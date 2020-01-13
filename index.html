@@ -1,46 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Youtube Video Player</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="youtube_logo.png" alt="youtube_logo" id="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Video Player</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="youtube_logo.png" alt="youtube_logo" id="logo" />
+        </div>
+
+        <input type="text" name="search" id="search" placeholder="Search" />
+
+        <button id="search-button">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            style="pointer-events: none; width: 20px; height: 20px;"
+          >
+            <g>
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path>
+            </g>
+          </svg>
+        </button>
+
+        <ul id="icon-container">
+          <li class="icons">
+            <a href="#"><img src="video-camera.png" alt="video-camera"/></a>
+          </li>
+          <li class="icons">
+            <a href="#"><img src="grid.png" alt="grid"/></a>
+          </li>
+          <li class="icons">
+            <a href="#"><img src="bell.png" alt="bell"/></a>
+          </li>
+          <li class="icons">
+            <a href="#"><img src="user.png" alt="user"/></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-container">
+      <div class="video-container">
+        <iframe
+          width="65%"
+          height="550px"
+          src="https://www.youtube.com/embed/ZnuwB35GYMY"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
 
-      <input type="text" name="search" id="search" placeholder="Search">
+      <div class="view">
+        <h3>Embedd a video</h3>
+        <p>100000 views</p>
+      </div>
 
-      <button id="search-button">
-        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; width: 20px; height: 20px;"><g>
-        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-        </g></svg>
-      </button>
+      <div class="video-info">
+        <img src="like.png" alt="like-button" />
+        <span>666</span>
+        <img src="hand-gesture.png" alt="dislike-button" />
+        <span>666</span>
+        <img src="share.png" alt="share-button" />
+        <span>SHARE</span>
+        <img src="playlist.png" alt="playlist-button" />
+        <span>SAVE</span>
+      </div>
 
-      <ul id="icon-container">
-        <li class="icons"><a href="#"><img src="video-camera.png" alt="video-camera"></a></li>
-        <li class="icons"><a href="#"><img src="grid.png" alt="grid"></a></li>
-        <li class="icons"><a href="#"><img src="bell.png" alt="bell"></a></li>
-        <li class="icons"><a href="#"><img src="user.png" alt="user"></a></li>
-      </ul>
-
-    </nav>
-  </header>
-  <div class="main-container">
-    <div class="video-container">
-      <iframe width="65%" height="550px" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
     </div>
-    <div class="view"><h3>Embedd a video</h3><p>100000 views</p></div>
-    <div class="video-info">
-      <img src="like.png" alt="like-button"> 
-      <span>666</span>
-      <img src="hand-gesture.png" alt="dislike-button">
-    </div>
-  </div>
-</body>
+  </body>
 </html>
