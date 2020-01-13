@@ -102,3 +102,32 @@ p {
   margin: 0 25px 0 5px;
   font-size: 14px;
 }
+
+.uploader {
+  width: 65%;
+  border-top: 1px solid grey;
+  margin-left: 70px;
+}
+
+.clearfix {
+  float: none;
+}
+
+#molly {
+  position: relative;
+  top: -20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#subscribe {
+  float: right;
+  background-color:#CC0000;
+  padding: 10px 15px; 
+  color: white;
+  border: none; 
+}
+
+#avatar, #molly, #subscribe {
+  margin-top: 20px;
+}
