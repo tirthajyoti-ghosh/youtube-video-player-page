@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+}
+
+.body {
+  height: 100vh;
 }
 
 header{
@@ -54,4 +60,42 @@ nav{
 #icon-container li a img{
   width: 17px;
   height: 17px;
+}
+
+.main-container {
+  background-color: #F9F9F9;
+  height: 100%;  
+}
+
+iframe {
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.view {  
+  margin-left: 70px;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;  
+  width: 20%;
+  float: left;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+p {
+  font-size: 15px;
+  padding-top: 11px;
+}
+
+.video-info {
+  float: left;
+  margin-left: 18%;
+  margin-top: 35px;
+}
+
+.video-info span {
+ 
 }
