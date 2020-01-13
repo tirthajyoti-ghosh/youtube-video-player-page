@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 75px;
+  width: 100%;
+  display: inline-block;
+}
+
+nav{
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  float: left;
+}
+
+.logo img{
+  width: 75px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+#search{
+  float: left;
+  margin-left: 20%;
+  margin-top: 20px;
+  height: 28px;
+  width: 40%;
+  text-indent: 10px;
+}
+
+#search-button{  
+  height: 32px;
+  width: 65px;
+  margin-top: 20px;
+}
+
+#icon-container{
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+#icon-container li{
+  list-style: none;
+  float: left;
+  margin: 20px;
+}
+
+#icon-container li a img{
+  width: 17px;
+  height: 17px;
+}
