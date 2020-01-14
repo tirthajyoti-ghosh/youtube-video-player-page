@@ -69,6 +69,7 @@ nav{
 }
 
 iframe {
+  width: 93%;
   margin-left: 70px;
   margin-top: 25px;
 }
@@ -149,12 +150,13 @@ p {
 .sidebar{
   float: right;
   position: relative;
-  width: 30%;
+  width: 25%;
   top: 25px;
+  margin-right: 75px;
 }
 
 .sidebar .recommend{
-  margin-left: 30px;
+  margin-left: 15px;
   position: relative;
 }
 
@@ -180,7 +182,7 @@ p {
 }
 
 .sidebar .recommend img{
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .sidebar .recommend .video-view{
