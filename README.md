@@ -16,7 +16,7 @@ It shows you a static clone of the youtube video player page.
 #### and deployed to Raw Githack
 
 ## Live Demo
-[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/youtube-video-player-page/856b3f2080b84e29dce22f594df21af9a82a3795/index.html
+[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/youtube-video-player-page/fc2055ddd24ad17db4ca26211eaaba36145b4eef/index.html
 )
 
 ## 🤝 Contributing
