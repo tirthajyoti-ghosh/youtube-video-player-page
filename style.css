@@ -95,6 +95,10 @@ p {
   width: 70%;
 }
 
+.video-container iframe{
+  border: 0px;
+}
+
 .video-info {
   float: left;
   margin-left: 18%;
