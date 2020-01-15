@@ -33,17 +33,20 @@ nav{
 
 #search{
   float: left;
-  margin-left: 20%;
+  margin-left: 16rem;
   margin-top: 20px;
-  height: 28px;
+  height: 30px;
   width: 40%;
   text-indent: 10px;
+  border: 1px solid #c1c5c8;
 }
 
 #search-button{  
   height: 32px;
   width: 65px;
   margin-top: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #c1c5c8;
 }
 
 #icon-container{
@@ -55,7 +58,7 @@ nav{
 #icon-container li{
   list-style: none;
   float: left;
-  margin: 20px;
+  margin: 1.2rem;
 }
 
 #icon-container li a img{
@@ -70,12 +73,12 @@ nav{
 
 iframe {
   width: 93%;
-  margin-left: 65px;
+  margin-left: 3.5rem;
   margin-top: 25px;
 }
 
 .view {  
-  margin-left: 70px;
+  margin-left: 3.5rem;
   margin-top: 15px;
   font-size: 17px;  
   width: 20%;
@@ -92,6 +95,10 @@ p {
   padding-top: 11px;
 }
 
+.view-wrapper{
+  height: 5rem;
+}
+
 .video-container {
   width: 70%;
 }
@@ -101,15 +108,16 @@ p {
 }
 
 .video-info {
+  width: 25rem;
   float: left;
-  margin-left: 18%;
-  margin-top: 35px;
+  margin-left: 16rem;
+  margin-top: 2.5rem;
 }
 
 .video-info span{
   position: relative;
   top: -5px;
-  margin: 0 25px 0 5px;
+  margin: 0 1.8rem 0 0.2rem;
   font-size: 14px;
 }
 
@@ -120,7 +128,7 @@ p {
 .uploader {
   width: 65%;
   border-top: 1px solid grey;
-  margin-left: 70px;
+  margin-left: 3.5rem;
 }
 
 .clearfix {
@@ -152,7 +160,7 @@ p {
   position: relative;
   width: 25%;
   top: 25px;
-  margin-right: 75px;
+  margin-right: 3.9rem;
 }
 
 .sidebar .recommend{
@@ -162,7 +170,7 @@ p {
 
 .sidebar .recommend span{
   position: absolute;
-  top: 12px;
+  top: 0.4rem;
   font-size: 14px;
   margin-left: 10px;
 }
@@ -187,7 +195,7 @@ p {
 
 .sidebar .recommend .video-view{
   position: absolute;
-  top: 58px;
+  top: 3.5rem;
   font-size: 13px;
 }
 
