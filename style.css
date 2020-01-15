@@ -72,13 +72,14 @@ nav{
 }
 
 iframe {
-  width: 93%;
-  margin-left: 3.5rem;
+  width: 95.3%;
+  height: 550px;
+  margin-left: 1.9rem;
   margin-top: 25px;
 }
 
 .view {  
-  margin-left: 3.5rem;
+  margin-left: 1.9rem;
   margin-top: 15px;
   font-size: 17px;  
   width: 20%;
@@ -97,6 +98,7 @@ p {
 
 .view-wrapper{
   height: 5rem;
+  width: 68.9%;
 }
 
 .video-container {
@@ -109,8 +111,7 @@ p {
 
 .video-info {
   width: 25rem;
-  float: left;
-  margin-left: 16rem;
+  float: right;
   margin-top: 2.5rem;
 }
 
@@ -128,7 +129,7 @@ p {
 .uploader {
   width: 65%;
   border-top: 1px solid grey;
-  margin-left: 3.5rem;
+  margin-left: 1.9rem;
 }
 
 .clearfix {
@@ -160,7 +161,7 @@ p {
   position: relative;
   width: 25%;
   top: 25px;
-  margin-right: 3.9rem;
+  margin-right: 1.9rem;
 }
 
 .sidebar .recommend{
