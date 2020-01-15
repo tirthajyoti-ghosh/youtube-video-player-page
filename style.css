@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 75px;
+  width: 100%;
+  display: inline-block;
+}
+
+nav{
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  float: left;
+}
+
+.logo img{
+  width: 75px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+#search{
+  float: left;
+  margin-left: 16rem;
+  margin-top: 20px;
+  height: 30px;
+  width: 40%;
+  text-indent: 10px;
+  border: 1px solid #c1c5c8;
+}
+
+#search-button{  
+  height: 32px;
+  width: 65px;
+  margin-top: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #c1c5c8;
+}
+
+#icon-container{
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+#icon-container li{
+  list-style: none;
+  float: left;
+  margin: 1.2rem;
+}
+
+#icon-container li a img{
+  width: 17px;
+  height: 17px;
+}
+
+.main-container {
+  background-color: #F9F9F9;
+  height: 100%;  
+}
+
+iframe {
+  width: 95.3%;
+  height: 550px;
+  margin-left: 1.9rem;
+  margin-top: 25px;
+}
+
+.view {  
+  margin-left: 1.9rem;
+  margin-top: 15px;
+  font-size: 17px;  
+  width: 20%;
+  float: left;
+}
+
+h3 {
+  font-weight: 200;
+  cursor: pointer;
+}
+
+p {
+  font-size: 15px;
+  padding-top: 11px;
+}
+
+.view-wrapper{
+  height: 5rem;
+  width: 68.9%;
+}
+
+.video-container {
+  width: 70%;
+}
+
+.video-container iframe{
+  border: 0px;
+}
+
+.video-info {
+  width: 25rem;
+  float: right;
+  margin-top: 2.5rem;
+}
+
+.video-info span{
+  position: relative;
+  top: -5px;
+  margin: 0 1.8rem 0 0.2rem;
+  font-size: 14px;
+}
+
+.video-info img, .video-info span{
+  cursor: pointer;
+}
+
+.uploader {
+  width: 65%;
+  border-top: 1px solid grey;
+  margin-left: 1.9rem;
+}
+
+.clearfix {
+  float: none;
+}
+
+#molly {
+  position: relative;
+  top: -20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#subscribe {
+  float: right;
+  background-color:#CC0000;
+  padding: 10px 15px; 
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#avatar, #molly, #subscribe {
+  margin-top: 20px;
+}
+
+.sidebar{
+  float: right;
+  position: relative;
+  width: 25%;
+  top: 25px;
+  margin-right: 1.9rem;
+}
+
+.sidebar .recommend{
+  margin-left: 15px;
+  position: relative;
+}
+
+.sidebar .recommend span{
+  position: absolute;
+  top: 0.4rem;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.sidebar .up-next span{
+  top: 35px;
+}
+
+.sidebar .recommend span a{
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar .up-next img{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.sidebar .recommend img{
+  margin-top: 7px;
+}
+
+.sidebar .recommend .video-view{
+  position: absolute;
+  top: 3.5rem;
+  font-size: 13px;
+}
+
+.sidebar .up-next .video-view{
+  top: 78px;
+}
